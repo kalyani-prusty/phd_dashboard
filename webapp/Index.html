@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ph.D. Dashboard </title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"> <img src="LOGOPHD-removebg-preview.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.jsp">DASHBOARD</a></li>
+                    <li><li><div class="dropdown">
+  <button class="dropbtn">ABOUT</button>
+  <div class="dropdown-content">
+    <a href="Precident-about.html">Precident's Message</a>
+    <a href="Principal-msg.html">Vice Precident's Desk</a>
+    <a href="college-admin.html">College Administration</a>
+  </div>
+</div></li></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Research.html">RESEARCH</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><div class="dropdown">
+  <button class="dropbtn">LOGIN</button>
+  <div class="dropdown-content">
+    <a href="Login_student.jsp">STUDENT-LOGIN</a>
+    <a href="Login_staff.jsp">STAFF-LOGIN</a>
+    <a href="Login_normal_user.jsp">NORMAL USER-LOGIN</a>
+  </div>
+</div></li>
+                    <li><div class="dropdown">
+  <button class="dropbtn">REGISTER</button>
+  <div class="dropdown-content">
+    <a href="Student-redg.html">STUDENT</a>
+    <a href="Staff-redg.html">STAFF</a>
+    <a href="Normal_user-redg.html">NORMAL USER</a>
+  </div>
+</div></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>we offer the Best For You</h1>
+            <p>“No research without action, no action without research”</p>
+            <a href="Visit.jsp" class="hero-btn"> Visit Us To Know More</a>
+
+        </div>
+    </section>
+    <!-------courses offer  ------->
+    <section class="course">
+        <h1>Courses We Offer </h1>
+        <p>“Research is seeing what everybody else has seen and thinking what nobody else has thought.” ...</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Chemestry</h3>
+                <p>Chemistry is the scientific study of the properties and behavior of matter. It is a physical science
+                    under natural sciences that covers the elements that make up matter to the compounds made of atoms.
+                </p>
+                <img src="chem.jpeg">
+            </div>
+            <div class="course-col">
+                <h3>Pshycology</h3>
+                <p>Psychology is the study of mind and behavior in humans and non-humans. Psychology includes the study
+                    of conscious and unconscious phenomena, including feelings and thoughts.
+                </p>
+                <img src="psyco.jpeg">
+            </div>
+            <div class="course-col">
+                <h3>Cemical Engineering</h3>
+                <p>Chemical engineering is an engineering field which deals with the study of operation and design of
+                    chemical plants as well as methods of improving production.
+                </p>
+                <img src="chemeng.jpeg">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="course-col">
+                <h3>Biotechnology</h3>
+                <p>Biotechnology is a multidisciplinary field that involves the integration of natural sciences and
+                    engineering sciences in order to achieve the application of organisms, cells, parts thereof and
+                    molecular analogues for products and services.
+                </p>
+                <img src="boitech.jpeg">
+            </div>
+            <div class="course-col">
+                <h3>Computer Science and Engineering</h3>
+                <p>Computer science and engineering is an academic program at many universities which comprises
+                    scientific and engineering aspects of computing. CSE is also a term often used in Europe to
+                    translate the name of engineering informatics academic programs.
+                </p>
+                <img src="ml.jpeg">
+            </div>
+            <div class="course-col">
+                <h3>Zoology</h3>
+                <p>Zoology is the scientific study of animals. Its studies include the structure, embryology,
+                    classification, habits, and distribution of all animals, both living and extinct, and how they
+                    interact with their ecosystems
+                </p>
+                <img src="zoo.jpeg">
+            </div>
+
+        </div>
+
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>We have 29,000 inhabitants in the city area and a further 125,000 in the city area. Our College is
+                located here. According to its website, “Our College is a highly selective for docterate degree
+                college that emphasizes good practice and Experience.” </p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="india.jpeg">
+                    <div class="layer">
+                        <h3>INDIA</h3>
+
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="colombia.jpeg">
+                    <div class="layer">
+                        <h3>COLOMBIA</h3>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="london.jpeg">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="newyork.jpeg">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                        <!---<h2> Our University is a private research university in New York City. Chartered in 1831 by the New
+                        York
+                        State Legislature, NYU was founded in 1832 by a group of New Yorkers led by Albert Gallatin as a
+                        non-denominational all-male institution near City Hall based on a curriculum focused on a
+                        secular education.</h2>--->
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!------Facilities-->
+        <section class="facilities">
+            <h1>OUR FACILITIES</h1>
+            <p>Our facilities will give you better foundation for grooming and learning.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <h3>Our WorldClass Library</h3>
+                    <img src="library.jpeg" alt="">
+                    <p>When you are well equipped with each and every source that can help you with learning, you will
+                        grow
+                        better. A library is a place where, you will be getting cluster of books that will provide you
+                        efficient academic help. Nowadays, a few library do consists of internet access and computers in
+                        it,
+                        that help the student to surf efficiently according to the requirements</p>
+                </div>
+                <div class="facilities-col">
+                    <h3>Best Labrotory Facility</h3>
+                    <img src="lab.jpeg" alt="">
+                    <p>Our campus offers a specific area that is dedicated to electronics or IT Support. Wide range of
+                        Technology updated apparatuses will help you learn to access the newest form of technology.</p>
+                </div>
+                <div class="facilities-col">
+                    <h3>FINANCIAL SECURITY AND SCHOLARSHIP OFFICE</h3>
+                    <img src="banner2.jpeg" alt="">
+                    <p>A specific area dedicated to financial aid and scholarship is there. Any student who is eligible
+                        for
+                        the same can apply there for extra perks of education.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h1>What our Student Says?</h1>
+            <p>Every student get good placement well reputed and renowned companies, curriculum was excellent . College
+                provide us intership for better future and experience. We have faculties ,who are very educated ,
+                knowledge
+                and experienced. They are very helpful and understandble well communication .</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="user1.jpeg" alt="">
+                    <div>
+                        <h3>Omprakash Patel</h3>
+                        <p>The course helped to build confidence, Valuable experiences and learning. Overall a very
+                            informative training session. Course content got well covered and also demonstrated the
+                            concept
+                            very well. Thanks for such an informative and concept-clearing training session.</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="user2.avif" alt="">
+                    <div>
+                        <h3>Priti Berkley</h3>
+                        <p>.I never imagined that maths could be so fun!! Incredible course, it opened my eyes in many
+                            ways.
+                            I discovered new ways of learning/teaching maths. Sandeep Sir you are my favorite.</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="user3.avif" alt="">
+                    <div>
+                        <h3>Christ Belji</h3>
+                        <p>"Proud to be a part . Really excellent staff. Exclusive for law that is best."</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-solid fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="user4.avif" alt="">
+                    <div>
+                        <h3>Priti Berkley</h3>
+                        <p>"for me sla has been a gateway to my dream. highly recommended for serious students. they
+                            bring
+                            out best in you."</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---Call to action-->
+        
+        <footer>
+        <div class="foot-pannel1">
+       Enroll for our various Courses in Online ,From anywhere and anytime
+        </div>
+        <div class="foot-pannel2">
+            <ul>
+                <p>Get to Connect Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="About.html">About us</a>
+                <a href="">Authorities</a>
+                
+            </ul>
+            <ul>
+                <p>General</p>
+                <a href="">Holidaylist </a>
+                <a href="">Login</a>
+                <a href="">Admission</a>
+                <a href="">course fee</a>
+                
+            </ul>
+            <ul>
+                <p>Connect</p>
+                <a href="">image galary</a>
+                <a href="">vedio galery</a>
+                <a href="">Media coverage</a>
+                <a href="">News letter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href=""> COVID-19</a>
+                <a href="">Your Account</a>
+                <a href="">Manage Your Account</a>
+                <a href="">Our Assistant</a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+        <div class="foot-pannel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-pannel4">
+            <div class="pages">
+                <a> first duty of a university is to teach wisdom, not trade; character, not technicalities</a>
+            </div>
+            <div class="copy">
+                © 1996-2023,Ph.D Dashboard
+                
+            </div>
+        <div class="soci-img">
+			<i class="fa-brands fa-facebook fa-2x"></i>
+			<i class="fa-brands fa-instagram fa-2x"></i>
+			<i class="fa-brands fa-youtube fa-2x"></i>
+		</div>
+        </div>
+    </footer>
+
+
+
+
+
+        <!-------java script for menu toggle ------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+</body>
+
+</html>

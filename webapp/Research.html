@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="Index.html"> <img src="LOGOPHD-removebg-preview.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.jsp">DASHBOARD</a></li>
+                    <li><li><div class="dropdown">
+  <button class="dropbtn">ABOUT</button>
+  <div class="dropdown-content">
+    <a href="Precident-about.html">Precident's Message</a>
+    <a href="Principal-msg.html">Vice Precident's Desk</a>
+    <a href="college-admin.html">College Administration</a>
+  </div>
+</div></li></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Research.html">RESEARCH</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><div class="dropdown">
+  <button class="dropbtn">LOGIN</button>
+  <div class="dropdown-content">
+    <a href="Login_student.jsp">STUDENT-LOGIN</a>
+    <a href="Login_staff.jsp">STAFF-LOGIN</a>
+    <a href="Login_normal_user.jsp">NORMAL USER-LOGIN</a>
+  </div>
+</div></li>
+                    <li><div class="dropdown">
+  <button class="dropbtn">REGISTER</button>
+  <div class="dropdown-content">
+    <a href="Student-redg.html">STUDENT</a>
+    <a href="Staff-redg.html">STAFF</a>
+    <a href="Normal_user-redg.html">NORMAL USER</a>
+  </div>
+</div></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Research And Thesis</h1>
+    </section>
+
+    <!------Content-------->
+    <section class="r-content">
+        <div class="row">
+            <div class="r-left">
+                <img src="books.jpeg" alt="">
+                <h2>Research degrees and studentships</h2>
+                <p>We are looking for highly motivated and suitably qualified individuals who wish to undertake
+                    postgraduate research in astrophysics leading to either the PhD or MSc degree. We also offer, if
+                    resources allow, part-time PhDs. We welcome applicants from all backgrounds and communities and
+                    especially from groups who are traditionally under-represented in Physics.</p><br>
+                <p>In this round, PhD projects are being offered in the following research areas. PhD places are 3.5
+                    years full time, starting in October 2024. Priority will be given to applications received before 1
+                    February 2024. The links below contain abstracts for the projects that we offered for last year's
+                    recruitment round in each subject area; they will be updated in early November 2023 to reflect the
+                    projects we are offering to applicants in 2024.
+
+                </p>
+                <br>
+                <h2>PhD Research Studentships</h2>
+                <p>These studentships are open to both UK and international students and provide a stipend equivalent to
+                    that provided by STFC (see above). A few of these studentships are available every year. Applicants
+                    must meet the same academic criteria as STFC students. The University also expects International
+                    applicants to have an IELTS (English proficiency) score of normally 6.5 or above.</p>
+                <h2>Self-funded and part-time PhD</h2>
+                <p>Suitably qualified candidates may also register as self-funded full-time or part-time PhD students,
+                    contingent on sufficient resources being available and research staff commitments. Applications are
+                    considered on an individual basis and may be made at any time. Potential applicants should contact
+                    Dr Daniel Smith, postgraduate admissions tutor, for advice on qualifications, fees, possible
+                    research projects and working arrangements. Self-funded PhD students can apply for a government
+                    loan..</p>
+                <h2>How to apply:
+                </h2>
+                <p>To apply, a completed application form, along with copies of higher education certificates,
+                    transcripts, a copy of your passport and two letters of reference, should be returned (by post or
+                    email) to Suchismita Swain at the address below, by the closing date. You should arrange for your
+                    referees to write separately using the form provided or send their reference via email directly to
+                    Suchismita Swain. References must be received before the deadline for applications to be considered.
+                </p>
+                <div class="testimonials-col">
+
+                    <div>
+                        <h3>Suchismita Swain</h3>
+                        <pre>
+                        Research Student Admissions
+                        Doctoral College
+                        College Lane
+                        Hatfield
+                        Herts
+                        AL10 9AB
+                        ph.No:+91�90901�86315
+                       </pre>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+
+                    <div>
+                        <h3>Amrit Panda</h3>
+                        <pre>
+                            Postgraduate Tutor
+                            Department of Physics, Astronomy & Mathematics                                
+                            College Lane
+                            Hatfield
+                            Herts
+                            AL10 9AB
+                            ph.No:+91�93373�44043
+                        </pre>
+                    </div>
+                </div>
+                <div class="comment-box">
+                    <h3>Leave a Comment Here</h3>
+                    <form action="Research_msg" method="post" class="comment-form">
+                        <input type="text" placeholder="Enter your name" name="name">
+                        <input type="email" placeholder="Enter email" name="email">
+                        <textarea rows="6" placeholder="Your Comment" name="msg"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST</button>
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="r-right">
+                <h3>Categories</h3>
+                <div>
+                    <span>Chemestry</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Pshycology</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Cemical Engineering</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Biotechnology</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>CSE</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Zoology</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Pharmacy</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>International Affaire</span>
+                    <span>23</span>
+                </div>
+                <form class="comment-box comment-form" action="Course_thesis" method="post">
+                    <label for="file">Upload ur Thesis Here:</label>
+                    <input type="number" placeholder="Enter University Roll Number" id="t1" name="roll">
+                    <input type="email" placeholder="Enter Email" id="t2" name="email">
+                    <input id="file" type="file"  name="file"/>
+                    <button class="hero-btn red-btn">Upload</button>
+                </form>
+                <h3>Fees</h3>
+                <div>
+                    <span>Annual Fees</span>
+                    <span>80,000</span>
+                </div>
+                <div>
+                    <span>PT,Pre-registeration</span>
+                    <span>40,000</span>
+                </div>
+                <div>
+                    <span>Thesis Submission</span>
+                    <span>50,000</span>
+                </div>
+                <div>
+                    <span>FT,Pre-registeration</span>
+                    <span>80,000</span>
+                </div>
+                <div>
+                    <span>Oral Defence</span>
+                    <span>30,000</span>
+                </div>
+               
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-pannel1">
+       Enroll for our various Courses in Online ,From anywhere and anytime
+        </div>
+        <div class="foot-pannel2">
+            <ul>
+                <p>Get to Connect Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="About.html">About us</a>
+                <a href="">Authorities</a>
+                
+            </ul>
+            <ul>
+                <p>General</p>
+                <a href="">Holidaylist </a>
+                <a href="">Login</a>
+                <a href="">Admission</a>
+                <a href="">course fee</a>
+                
+            </ul>
+            <ul>
+                <p>Connect</p>
+                <a href="">image galary</a>
+                <a href="">vedio galery</a>
+                <a href="">Media coverage</a>
+                <a href="">News letter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href=""> COVID-19</a>
+                <a href="">Your Account</a>
+                <a href="">Manage Your Account</a>
+                <a href="">Our Assistant</a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+        <div class="foot-pannel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-pannel4">
+            <div class="pages">
+                <a> first duty of a university is to teach wisdom, not trade; character, not technicalities</a>
+            </div>
+            <div class="copy">
+                © 1996-2023,Ph.D Dashboard
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-------java script for menu toggle ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

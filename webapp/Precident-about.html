@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>About</title>
+<link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="Index.html"> <img src="LOGOPHD-removebg-preview.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.jsp">DASHBOARD</a></li>
+                    <li><li><div class="dropdown">
+  <button class="dropbtn">ABOUT</button>
+  <div class="dropdown-content">
+    <a href="Precident-about.html">Precident's Message</a>
+    <a href="Principal-msg.html">Vice Precident's Desk</a>
+    <a href="college-admin.html">College Administration</a>
+  </div>
+</div></li></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Research.html">RESEARCH</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><div class="dropdown">
+  <button class="dropbtn">LOGIN</button>
+  <div class="dropdown-content">
+    <a href="Login_student.jsp">STUDENT-LOGIN</a>
+    <a href="Login_staff.jsp">STAFF-LOGIN</a>
+    <a href="Login_normal_user.jsp">NORMAL USER-LOGIN</a>
+  </div>
+</div></li>
+                    <li><div class="dropdown">
+  <button class="dropbtn">REGISTER</button>
+  <div class="dropdown-content">
+    <a href="Student-redg.html">STUDENT</a>
+    <a href="Staff-redg.html">STAFF</a>
+    <a href="Normal_user-redg.html">NORMAL USER</a>
+  </div>
+</div></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Precident's Message</h1>
+    </section>
+    <!--Content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Dr. Mukti Kanta Mishra</h1>
+                <h3>Dreams, determination, and dedication are the stepping stones to success. So dare to dream and have courage to pursue that dream relentlessly.</h3>
+                <p>College education is one of the most important investments you will ever make. It paves the path for your future. It transforms you from a student into a professional; from a young adult to an independent individual; from a son/daughter who is dependent on parents to a responsible adult who will shoulder responsibility of his / her family and society at large. The Academy is where you will choose your life’s path and make memories of lifelong friendships.</p>
+
+					<p>College education is not just about acquiring a degree or merely scoring marks, it is about learning and gaining knowledge that will become the building blocks to a successful career ahead and help address our nation’s  problems and contribute to the growth of our society and our country. Equally vital are the values and principles that will shape your personality into a holistic individual and a responsible citizen.</p>
+                
+            </div>
+            <div class="about-col">
+                <img src="mukti-sir.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+    
+
+    <footer>
+        <div class="foot-pannel1">
+       Enroll for our various Courses in Online ,From anywhere and anytime
+        </div>
+        <div class="foot-pannel2">
+            <ul>
+                <p>Get to Connect Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="About.html">About us</a>
+                <a href="">Authorities</a>
+                
+            </ul>
+            <ul>
+                <p>General</p>
+                <a href="">Holidaylist </a>
+                <a href="">Login</a>
+                <a href="">Admission</a>
+                <a href="">course fee</a>
+                
+            </ul>
+            <ul>
+                <p>Connect</p>
+                <a href="">image galary</a>
+                <a href="">vedio galery</a>
+                <a href="">Media coverage</a>
+                <a href="">News letter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href=""> COVID-19</a>
+                <a href="">Your Account</a>
+                <a href="">Manage Your Account</a>
+                <a href="">Our Assistant</a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+        <div class="foot-pannel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-pannel4">
+            <div class="pages">
+                <a> first duty of a university is to teach wisdom, not trade; character, not technicalities</a>
+            </div>
+            <div class="copy">
+                © 1996-2023,Ph.D Dashboard
+                
+            </div>
+        </div>
+    </footer>
+    <!-------java script for menu toggle ------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
